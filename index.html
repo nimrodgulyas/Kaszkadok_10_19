@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suli büfé – Kaszkád és specificitás gyakorlás</title>
+
+  <!-- Külső stíluslap: a feladatokat ebben a fájlban (style.css) kell megoldanod. -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Beágyazott stílus: ezt a blokkot NEM módosíthatod. -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    h1 {
+      color: navy;
+    }
+
+    h2 {
+      color: #374151;
+    }
+
+    p {
+      color: blue;
+      font-size: 16px;
+    }
+
+    #menu li {
+      color: black;
+      padding: 4px 0;
+    }
+
+    .akcio-doboz {
+      border: 2px solid #f59e0b;
+      background-color: #fffbeb;
+      padding: 12px;
+      margin: 16px 0;
+    }
+
+    footer {
+      background-color: #111827;
+      padding: 8px 16px;
+      margin-top: 24px;
+    }
+
+    footer p {
+      color: gray !important;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Suli büfé</h1>
+    <p class="bevezeto">Üdvözlünk a büfénél! Itt találod a mai kínálatot.</p>
+  </header>
+
+  <main>
+    <h2>Mai menü</h2>
+    <ul id="menu">
+      <li>Sajtos szendvics – 890 Ft</li>
+      <li class="akcios">Sonkás melegszendvics – 990 Ft</li>
+      <li>Almás pite – 590 Ft</li>
+      <li class="akcios">Ásványvíz – 350 Ft</li>
+    </ul>
+
+    <div class="akcio-doboz">
+      Ma <strong>20% kedvezmény</strong> minden szendvicsre!
+      <a href="#">Részletek</a>
+    </div>
+
+    <p class="figyelmeztetes" style="color: gray; font-style: italic;">
+      Figyelem: a pite elfogyhat, ha nem érkezel időben.
+    </p>
+  </main>
+
+  <footer>
+    <p class="lablec-szoveg">© Suli büfé – minden jog fenntartva.</p>
+  </footer>
+
+</body>
+</html>
