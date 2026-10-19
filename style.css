@@ -1,0 +1,28 @@
+header h1 {
+    color: crimson;
+}
+.bevezeto
+{
+    color: green;
+    font-size: 20px;
+}
+
+#menu li.akcios{
+    color: red;
+    font-weight: bold;
+}
+
+.figyelmeztetes{
+    color: red !important;
+    font-style:normal !important;
+}
+.akcio-doboz{
+    color: darkorange
+}
+.akcio-doboz a {
+    color: inherit;
+}
+
+footer p.lablec-szoveg{
+    color: white !important
+}
